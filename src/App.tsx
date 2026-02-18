@@ -4,7 +4,7 @@ import "react-toastify/dist/ReactToastify.css";
 import Layout from "./layout/Layout";
 import { ApiService } from "./services/api-service";
 import { CardResponseModel } from "./models";
-import BookCard from "./components/Card";
+import BookCard from "./components/BookCard";
 
 export default function App() {
   const [books, setBooks] = useState<CardResponseModel[]>([]);
