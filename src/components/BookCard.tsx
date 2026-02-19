@@ -96,7 +96,7 @@ export function BookCard({ book, onRefresh }: { book: CardResponseModel } & Layo
                     <p className="text-sm text-gray-500 mb-3 font-medium">
                         Author: {book.author}
                     </p>
-                    <p className="font-normal text-gray-700 dark:text-gray-400 line-clamp-3">
+                    <p className="font-normal text-gray-700 dark:text-gray-400 ">
                         {book.description}
                     </p>
                 </div>
